@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+#content{
+    height : 100%;
+    padding-top:15vh;
+    background-color: rgb(189, 191, 194);
+}
+
+#portrait{
+    padding-left: 5vw;
+    padding-right: 0;
+}
+
+#portrait-img{
+    width:80%;
+}
+
+#short-presentation{
+    display:flex;
+    flex-direction: row;
+}
+
+#short-presentation-text{
+    width: 50vw;
+    height: 50vh;
+    font-family:'Chakra Petch',serif;
+    font-size: large;
+}
+
+.text-reference{
+    color:rgb(206, 67, 67);
+}
+
+.text-reference:visited{
+    color:rgb(206, 67, 67);
+    text-decoration: none;
+}
