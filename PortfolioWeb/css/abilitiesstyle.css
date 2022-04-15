@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+#content{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.ability-title{
+    font-family:'Chakra Petch',serif;
+    color:brown;
+}
+
+#title{
+    font-size: x-large;
+    color:rgb(87, 9, 9);
+}

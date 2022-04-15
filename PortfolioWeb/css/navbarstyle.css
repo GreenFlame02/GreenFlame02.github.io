@@ -86,3 +86,15 @@
     max-width: 100%;
     max-height: 90%;
 }
+
+@media(max-width:900px){
+    .navbar-button, .navbar-button-hoverable{
+        width : 16.667%;
+        height : 100%;
+        text-align: center;
+    }
+    .navbar-button-empty{
+        width:0;
+        background-color: aliceblue;
+    }
+}

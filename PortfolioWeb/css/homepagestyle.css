@@ -7,12 +7,12 @@
 
 #portrait{
     padding-left: 5vw;
-    padding-right: 0;
+    padding-right: 5vw;
 }
 
 #portrait-img{
-    width:60vw;
-    height:30vh;
+    width:40vmin;
+    height:55vmin;
 }
 
 #short-presentation{
@@ -34,4 +34,15 @@
 .text-reference:visited{
     color:rgb(206, 67, 67);
     text-decoration: none;
+}
+
+@media (max-width:900px){
+    #short-presentation{
+        flex-direction: column;
+        text-align: center;
+    }
+    #short-presentation-text{
+        padding-top: 25px;
+        padding-left: 25%;
+    }
 }
