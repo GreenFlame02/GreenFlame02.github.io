@@ -3,7 +3,6 @@
 #content{
     height : 100%;
     padding-top:15vh;
-    background-color: rgb(189, 191, 194);
 }
 
 #portrait{
@@ -12,7 +11,8 @@
 }
 
 #portrait-img{
-    width:80%;
+    width:60vw;
+    height:30vh;
 }
 
 #short-presentation{

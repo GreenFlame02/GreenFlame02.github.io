@@ -25,11 +25,11 @@ li{
     flex-direction: row; 
 }
 #project-lists .project-list {  
-    padding-left: 15vmin;
+    padding-left: 9vmin;
 }
 
 li img {
-    width:35vw;
+    width:42vw;
 }
 
 .project-title{
