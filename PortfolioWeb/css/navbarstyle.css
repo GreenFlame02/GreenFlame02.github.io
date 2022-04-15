@@ -18,7 +18,7 @@
 }
 
 .navbar-button-hoverable:hover{
-    background-color: rgb(127, 161, 114);
+    background-color: rgb(161, 114, 151);
     transition: 0.4s;
 }
 
