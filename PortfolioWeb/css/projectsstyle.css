@@ -2,28 +2,8 @@
     padding-left: 5vw;
 }
 
-.content{
-    padding-left: 2%;
-}
-
-li img{
-    width:10%;
-    padding-right: 10vw;
-}
-
 li{
     padding-top: 2.5%;
-}
-
-#pongscreen{
-    width:25%;
-}
-
-#project-list img{
-    padding-top : 2vh;
-    display: block;
-    align-items: center;
-    width:70vmin;
 }
 
 .project-main-title{
@@ -38,13 +18,40 @@ li{
     color: rgb(133, 39, 39);
 }
 
-#project-list {
+#project-lists {
     display : inline-block;
     width : 35vw;
-    
+    display : flex;
+    flex-direction: row; 
+}
+#project-lists .project-list {  
+    padding-left: 15vmin;
 }
 
-.project-lists{
-    display : flex;
-    flex-direction: row;
+li img {
+    width:35vw;
+}
+
+.project-title{
+    padding-left:15%;
+    padding-bottom: 5%;
+    padding-top: 2.5%;
+}
+
+@media(max-width:900px){
+    content{
+        width:100vw;
+    }
+    #project-lists {
+        display : inline-block;
+        width : 100vw;
+        display : flex;
+        flex-direction: column; 
+    }
+    li img{
+        width:90vw
+    }
+    #project-lists .project-list {
+        padding-left: 5vw;
+    }
 }
